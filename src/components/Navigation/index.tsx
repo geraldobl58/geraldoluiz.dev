@@ -15,6 +15,15 @@ const Navigation = () => (
       <NavigationWrapperContentList>
         <Link href="/about">Sobre</Link>
       </NavigationWrapperContentList>
+      <NavigationWrapperContentList>
+        <Link href="/about">Portfolio</Link>
+      </NavigationWrapperContentList>
+      <NavigationWrapperContentList>
+        <Link href="/about">Blog</Link>
+      </NavigationWrapperContentList>
+      <NavigationWrapperContentList>
+        <Link href="/about">Contato</Link>
+      </NavigationWrapperContentList>
     </NavigationWrapperContent>
   </NavigationWrapper>
 )
