@@ -1,6 +1,7 @@
 import Skills from 'components/Skills'
 
 import { VscCode } from 'react-icons/vsc'
+import { AiOutlineDeploymentUnit, AiOutlineAntDesign } from 'react-icons/ai'
 
 import { HadSkillsWrapper, HadSkillsContent } from './styles'
 
@@ -9,17 +10,17 @@ const HadSkills = () => (
     <HadSkillsContent>
       <VscCode size={46} />
       <Skills
-        title="Software Engineer"
+        title="Desenvolvimento"
         subtitle="My name is Bernard Sydney. I am a Web Developer."
       />
-      <VscCode size={46} />
+      <AiOutlineDeploymentUnit size={46} />
       <Skills
-        title="DevOps"
+        title="Deploy"
         subtitle="My name is Bernard Sydney. I am a Web Developer."
       />
-      <VscCode size={46} />
+      <AiOutlineAntDesign size={46} />
       <Skills
-        title="Software Engineer"
+        title="Design Responsivo"
         subtitle="My name is Bernard Sydney. I am a Web Developer."
       />
     </HadSkillsContent>
