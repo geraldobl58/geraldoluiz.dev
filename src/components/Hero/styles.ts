@@ -27,7 +27,7 @@ export const HeroContent = styled.div`
 
   @media (max-width: 400px) {
     h1 {
-      font-size: 52px;
+      font-size: 48px;
     }
 
     h2 {
