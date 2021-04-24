@@ -1,12 +1,8 @@
 import styled from 'styled-components'
 
 export const HeroWrapper = styled.section`
-  max-width: 1400px;
   margin: 100px auto;
   padding: 20px 40px;
-
-  display: flex;
-  justify-content: space-between;
 `
 
 export const HeroContent = styled.div`
@@ -29,27 +25,13 @@ export const HeroContent = styled.div`
     font-family: 'Montserrat', sans-serif;
   }
 
-  p {
-    font-family: montserrat;
-    font-weight: 600;
-    display: inline-block;
-    padding-top: 10px;
-  }
-`
+  @media (max-width: 400px) {
+    h1 {
+      font-size: 52px;
+    }
 
-export const HeroTyped = styled.div`
-  display: flex;
-  align-items: center;
-
-  h3 {
-    margin-right: 20px;
-    text-transform: uppercase;
-    font-weight: 100;
-    font-size: 36px;
-  }
-
-  span {
-    font-size: 32px;
-    font-weight: 100;
+    h2 {
+      font-size: 48px;
+    }
   }
 `

@@ -16,4 +16,13 @@ export const HeroTyped = styled.div`
     font-weight: 100;
     text-transform: uppercase;
   }
+
+  @media (max-width: 400px) {
+    display: block;
+
+    h3 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+  }
 `
