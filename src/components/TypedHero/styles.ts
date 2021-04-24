@@ -14,5 +14,6 @@ export const HeroTyped = styled.div`
   span {
     font-size: 24px;
     font-weight: 100;
+    text-transform: uppercase;
   }
 `

@@ -1,13 +1,13 @@
 import Typed from 'react-typed'
 
-const ROLES = ['React.js', 'React Native', 'Next.js', 'Javascript']
+const ROLES = ['HTML', 'CSS', 'ReactJS', 'React Native', 'NextJS', 'Javascript']
 
 import { HeroTyped } from './styles'
 
 const TypedHero = () => {
   return (
     <HeroTyped>
-      <h3>Desenvolvedor</h3>
+      <h3>Hard Skills</h3>
       <Typed
         loop
         typeSpeed={70}
