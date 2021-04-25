@@ -4,10 +4,14 @@ const ROLES = ['HTML', 'CSS', 'ReactJS', 'React Native', 'NextJS', 'Javascript']
 
 import { HeroTyped } from './styles'
 
-const TypedHero = () => {
+interface TypedHeroprops {
+  title: string
+}
+
+const TypedHero = ({ title }: TypedHeroprops) => {
   return (
     <HeroTyped>
-      <h3>Hard Skills</h3>
+      <h3>{title}</h3>
       <Typed
         loop
         typeSpeed={70}
