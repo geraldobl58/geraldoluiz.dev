@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
-export const SkillsWrapper = styled.section``
+export const SkillsWrapper = styled.section`
+  margin: 100px 0;
+`
 
 export const SkillsContent = styled.div`
   padding: 20px 40px;
@@ -19,7 +21,7 @@ export const SkillsContent = styled.div`
 `
 
 export const SkillsItems = styled.div`
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 `
 
 export const SkillsTitle = styled.h1``

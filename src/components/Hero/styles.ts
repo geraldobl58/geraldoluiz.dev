@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const HeroWrapper = styled.section`
-  margin: 100px auto;
+  margin: 50px auto;
   padding: 20px 40px;
 `
 

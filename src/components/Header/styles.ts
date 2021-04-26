@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const HeaderWrapper = styled.header`
-  margin: 20px auto;
+  margin: 0px auto;
   padding: 20px 40px;
 `
 
