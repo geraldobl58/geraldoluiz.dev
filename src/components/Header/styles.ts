@@ -19,7 +19,7 @@ export const HeaderContent = styled.div`
   }
 
   ul {
-    display: flex;
+    /* display: flex; */
 
     list-style: none;
 
