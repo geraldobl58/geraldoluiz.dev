@@ -1,25 +1,22 @@
+import { useState } from 'react'
+
+import Burger from 'components/Burger'
+import Navigation from 'components/Navigation'
+
 import { HeaderWrapper, HeaderContent } from './styles'
 
-const Header = () => (
-  <HeaderWrapper>
-    <HeaderContent>
-      <h1>GL</h1>
-      <ul>
-        <li>
-          <a href="">Home</a>
-        </li>
-        <li>
-          <a href="">Sobre</a>
-        </li>
-        <li>
-          <a href="">Blog</a>
-        </li>
-        <li>
-          <a href="">Contato</a>
-        </li>
-      </ul>
-    </HeaderContent>
-  </HeaderWrapper>
-)
+const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false)
+
+  return (
+    <HeaderWrapper>
+      <HeaderContent>
+        <h1>GL</h1>
+        <Burger menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+        <Navigation menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      </HeaderContent>
+    </HeaderWrapper>
+  )
+}
 
 export default Header
