@@ -7,40 +7,39 @@ interface NavigationPropsStyled {
 export const StyledMenu = styled.nav<NavigationPropsStyled>`
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  background: #333;
+  background: var(--backgroundGray-100);
   height: 100vh;
   text-align: left;
   padding: 2rem;
   position: absolute;
   top: 0;
-  right: 0;
+  left: 0;
   transition: transform 0.3s ease-in-out;
 
+  transform: ${({ menuOpen }) =>
+    menuOpen ? 'translateX(0)' : 'translateX(-100%)'};
+
   @media (max-width: 768px) {
-    display: none;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
   }
 
-  transform: ${({ menuOpen }) =>
-    menuOpen ? 'translateX(0%)' : 'translateX(100%)'};
-
   a {
-    font-size: 2rem;
-    text-transform: uppercase;
-    padding: 2rem 0;
-    font-weight: bold;
-    letter-spacing: 0.5rem;
-    /* color: ${({ theme }) => theme.primaryDark}; */
+    font-size: 36px;
+    font-weight: 900;
+    color: transparent;
     text-decoration: none;
+    text-transform: uppercase;
     transition: color 0.3s linear;
+    -webkit-text-stroke: 1px var(--white);
+    font-family: 'Montserrat', sans-serif;
 
-    @media (max-width: 576px) {
-      font-size: 1.5rem;
-      text-align: center;
-    }
+    transition: filter 0.2s;
 
     &:hover {
-      /* color: ${({ theme }) => theme.primaryHover}; */
+      filter: brightness(0.5);
+      color: var(--white);
     }
   }
 `

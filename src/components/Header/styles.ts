@@ -3,6 +3,13 @@ import styled from 'styled-components'
 export const HeaderWrapper = styled.header`
   margin: 0px auto;
   padding: 20px 40px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: var(--backgroundGray-100);
+  align-items: center;
 `
 
 export const HeaderContent = styled.div`
@@ -19,8 +26,6 @@ export const HeaderContent = styled.div`
   }
 
   ul {
-    /* display: flex; */
-
     list-style: none;
 
     li {
@@ -31,7 +36,7 @@ export const HeaderContent = styled.div`
       align-items: center;
 
       a {
-        color: #fff;
+        color: var(--white);
         text-decoration: none;
         font-family: montserrat;
         font-weight: 600;
