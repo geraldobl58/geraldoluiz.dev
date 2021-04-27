@@ -22,6 +22,8 @@ export const SkillsContent = styled.div`
 
 export const SkillsItems = styled.div`
   margin-bottom: 100px;
+
+  display: flex;
 `
 
 export const SkillsTitlePage = styled.h1`
@@ -38,6 +40,14 @@ export const SkillsTitlePage = styled.h1`
     font-size: 56px;
   }
 `
-export const SkillsTitle = styled.h3``
+export const SkillsTitle = styled.h3`
+  font-size: 18px;
+  font-weight: 900;
+  text-transform: uppercase;
+`
 
-export const SkillsDesciption = styled.p``
+export const SkillsDescription = styled.p`
+  font-size: 16px;
+`
+
+export const SkillContentFeatured = styled.div``
