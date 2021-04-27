@@ -16,42 +16,4 @@ export const HeaderContent = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
-    font-weight: 900;
-    text-transform: uppercase;
-    line-height: 1.1;
-    z-index: 1;
-  }
-
-  ul {
-    list-style: none;
-
-    li {
-      margin: 0 0px 0 30px;
-      display: inline-block;
-
-      display: flex;
-      align-items: center;
-
-      a {
-        color: var(--white);
-        text-decoration: none;
-        font-family: montserrat;
-        font-weight: 600;
-        position: relative;
-        overflow: hidden;
-        display: inline-block;
-        text-transform: uppercase;
-
-        transition: filter 0.2s;
-
-        &:hover {
-          filter: brightness(0.5);
-        }
-      }
-    }
-  }
 `

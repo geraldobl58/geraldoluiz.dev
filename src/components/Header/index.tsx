@@ -4,6 +4,7 @@ import Burger from 'components/Burger'
 import Navigation from 'components/Navigation'
 
 import { HeaderWrapper, HeaderContent } from './styles'
+import Logo from 'components/Logo'
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -11,7 +12,7 @@ const Header = () => {
   return (
     <HeaderWrapper>
       <HeaderContent>
-        <h1>GL</h1>
+        <Logo />
         <Burger menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Navigation menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       </HeaderContent>
