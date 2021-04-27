@@ -8,7 +8,7 @@ export const SkillsContent = styled.div`
   padding: 20px 40px;
 
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 
   svg {
     margin-right: 2rem;
@@ -21,7 +21,7 @@ export const SkillsContent = styled.div`
 `
 
 export const SkillsItems = styled.div`
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 `
 
 export const SkillsTitlePage = styled.h1`

@@ -9,8 +9,12 @@ import {
 
 import { VscCode } from 'react-icons/vsc'
 import { FaBuromobelexperte } from 'react-icons/fa'
-import { SiJest, SiStorybook } from 'react-icons/si'
-import { AiOutlineDeploymentUnit, AiOutlineAntDesign } from 'react-icons/ai'
+import { SiJest, SiStorybook, SiGraphql } from 'react-icons/si'
+import {
+  AiOutlineDeploymentUnit,
+  AiOutlineAntDesign,
+  AiFillGithub
+} from 'react-icons/ai'
 
 const Skills = () => {
   return (
@@ -39,6 +43,13 @@ const Skills = () => {
           </SkillsDesciption>
         </SkillsItems>
         <SkillsItems>
+          <SiGraphql size={46} />
+          <SkillsTitle>Graphql</SkillsTitle>
+          <SkillsDesciption>
+            My name is Bernard Sydney. I am a Web Developer.
+          </SkillsDesciption>
+        </SkillsItems>
+        <SkillsItems>
           <FaBuromobelexperte size={46} />
           <SkillsTitle>UX/UI</SkillsTitle>
           <SkillsDesciption>
@@ -55,6 +66,13 @@ const Skills = () => {
         <SkillsItems>
           <SiStorybook size={46} />
           <SkillsTitle>Storybook</SkillsTitle>
+          <SkillsDesciption>
+            My name is Bernard Sydney. I am a Web Developer.
+          </SkillsDesciption>
+        </SkillsItems>
+        <SkillsItems>
+          <AiFillGithub size={46} />
+          <SkillsTitle>Git/Github</SkillsTitle>
           <SkillsDesciption>
             My name is Bernard Sydney. I am a Web Developer.
           </SkillsDesciption>
