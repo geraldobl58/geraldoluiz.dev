@@ -7,6 +7,7 @@ interface NavigationPropsStyled {
 export const StyledMenu = styled.nav<NavigationPropsStyled>`
   display: flex;
   flex-direction: column;
+  justify-content: center;
   background: var(--backgroundGray-100);
   height: 100vh;
   text-align: left;

@@ -7,7 +7,7 @@ const Hero = () => (
     <HeroContent>
       <h1>geraldo</h1>
       <h2>Luiz</h2>
-      <TypedHero title="Hard Skills" />
+      <TypedHero title="Tecnologias" />
     </HeroContent>
   </HeroWrapper>
 )

@@ -23,6 +23,7 @@ export const HeaderContent = styled.div`
     font-weight: 900;
     text-transform: uppercase;
     line-height: 1.1;
+    z-index: 1;
   }
 
   ul {

@@ -3,15 +3,19 @@ import {
   SkillsItems,
   SkillsWrapper,
   SkillsTitle,
-  SkillsDesciption
+  SkillsDesciption,
+  SkillsTitlePage
 } from './styles'
 
 import { VscCode } from 'react-icons/vsc'
+import { FaBuromobelexperte } from 'react-icons/fa'
+import { SiJest, SiStorybook } from 'react-icons/si'
 import { AiOutlineDeploymentUnit, AiOutlineAntDesign } from 'react-icons/ai'
 
 const Skills = () => {
   return (
     <SkillsWrapper>
+      <SkillsTitlePage>Skills</SkillsTitlePage>
       <SkillsContent>
         <SkillsItems>
           <VscCode size={46} />
@@ -35,22 +39,22 @@ const Skills = () => {
           </SkillsDesciption>
         </SkillsItems>
         <SkillsItems>
-          <VscCode size={46} />
-          <SkillsTitle>Desenvolvimento</SkillsTitle>
+          <FaBuromobelexperte size={46} />
+          <SkillsTitle>UX/UI</SkillsTitle>
           <SkillsDesciption>
             My name is Bernard Sydney. I am a Web Developer.
           </SkillsDesciption>
         </SkillsItems>
         <SkillsItems>
-          <AiOutlineDeploymentUnit size={46} />
-          <SkillsTitle>Deploy</SkillsTitle>
+          <SiJest size={46} />
+          <SkillsTitle>Testing Library</SkillsTitle>
           <SkillsDesciption>
             My name is Bernard Sydney. I am a Web Developer.
           </SkillsDesciption>
         </SkillsItems>
         <SkillsItems>
-          <AiOutlineAntDesign size={46} />
-          <SkillsTitle>Design Responsivo</SkillsTitle>
+          <SiStorybook size={46} />
+          <SkillsTitle>Storybook</SkillsTitle>
           <SkillsDesciption>
             My name is Bernard Sydney. I am a Web Developer.
           </SkillsDesciption>

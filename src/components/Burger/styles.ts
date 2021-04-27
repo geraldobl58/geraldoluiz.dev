@@ -2,7 +2,6 @@ import styled from 'styled-components'
 
 interface BurgerPropsStyled {
   menuOpen: boolean
-  setMenuOpen: (menuOpen: boolean) => void
 }
 
 export const StyledBurger = styled.button<BurgerPropsStyled>`
