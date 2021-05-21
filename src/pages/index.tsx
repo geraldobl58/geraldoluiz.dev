@@ -1,6 +1,7 @@
 import Header from 'components/Header'
 import Hero from 'components/Hero'
 import ItemsSkills from 'components/ItemsSkills'
+import Brands from 'components/Brands'
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <Hero />
       <ItemsSkills />
+      <Brands />
     </>
   )
 }

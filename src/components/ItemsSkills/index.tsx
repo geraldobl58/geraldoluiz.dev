@@ -20,7 +20,7 @@ import {
 const ItemsSkills = () => {
   return (
     <SkillsWrapper>
-      <SkillsTitlePage>Skills</SkillsTitlePage>
+      <SkillsTitlePage>Tecnologias</SkillsTitlePage>
       <SkillsContent>
         <SkillsItems>
           <VscCode size={46} />
