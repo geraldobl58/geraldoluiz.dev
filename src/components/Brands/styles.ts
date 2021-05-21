@@ -1,12 +1,6 @@
 import styled from 'styled-components'
 
-export const Wrapper = styled.section`
-  margin: 100px 0;
-
-  @media (max-width: 768px) {
-    margin: 50px 0;
-  }
-`
+export const Wrapper = styled.section``
 
 export const Content = styled.div`
   padding: 20px 40px;
@@ -17,13 +11,12 @@ export const Content = styled.div`
   img {
     margin-right: 2rem;
     opacity: 0.4;
+    width: 100%;
   }
 
   @media (max-width: 768px) {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-
-    margin: 50px 0;
   }
 `
 
