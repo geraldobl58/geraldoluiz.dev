@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const HeaderWrapper = styled.header`
+export const Wrapper = styled.header`
   margin: 0px auto;
   padding: 20px 40px;
   position: fixed;
@@ -12,7 +12,7 @@ export const HeaderWrapper = styled.header`
   align-items: center;
 `
 
-export const HeaderContent = styled.div`
+export const Content = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;

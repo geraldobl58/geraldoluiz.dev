@@ -1,12 +1,4 @@
-import {
-  SkillsContent,
-  SkillsItems,
-  SkillsWrapper,
-  SkillsTitle,
-  SkillsDescription,
-  SkillsTitlePage,
-  SkillContentFeatured
-} from './styles'
+import * as S from './styles'
 
 import { VscCode } from 'react-icons/vsc'
 import { FaBuromobelexperte } from 'react-icons/fa'
@@ -19,83 +11,83 @@ import {
 
 const ItemsSkills = () => {
   return (
-    <SkillsWrapper>
-      <SkillsTitlePage>Tecnologias</SkillsTitlePage>
-      <SkillsContent>
-        <SkillsItems>
+    <S.Wrapper>
+      <S.TitlePage>Tecnoogias</S.TitlePage>
+      <S.Content>
+        <S.Items>
           <VscCode size={46} />
-          <SkillContentFeatured>
-            <SkillsTitle>Desenvolvimento</SkillsTitle>
-            <SkillsDescription>
+          <S.ContentFeatured>
+            <S.Title>Desenvolvimento</S.Title>
+            <S.Description>
               My name is Bernard Sydney. I am a Web Developer.
-            </SkillsDescription>
-          </SkillContentFeatured>
-        </SkillsItems>
-        <SkillsItems>
+            </S.Description>
+          </S.ContentFeatured>
+        </S.Items>
+        <S.Items>
           <AiOutlineDeploymentUnit size={46} />
-          <SkillContentFeatured>
-            <SkillsTitle>Deploy</SkillsTitle>
-            <SkillsDescription>
+          <S.ContentFeatured>
+            <S.Title>Deploy</S.Title>
+            <S.Description>
               My name is Bernard Sydney. I am a Web Developer.
-            </SkillsDescription>
-          </SkillContentFeatured>
-        </SkillsItems>
-        <SkillsItems>
+            </S.Description>
+          </S.ContentFeatured>
+        </S.Items>
+        <S.Items>
           <AiOutlineAntDesign size={46} />
-          <SkillsDescription>
-            <SkillsTitle>Design Responsivo</SkillsTitle>
-            <SkillsDescription>
+          <S.Description>
+            <S.Title>Design Responsivo</S.Title>
+            <S.Description>
               My name is Bernard Sydney. I am a Web Developer.
-            </SkillsDescription>
-          </SkillsDescription>
-        </SkillsItems>
-        <SkillsItems>
+            </S.Description>
+          </S.Description>
+        </S.Items>
+        <S.Items>
           <SiGraphql size={46} />
-          <SkillsDescription>
-            <SkillsTitle>Graphql</SkillsTitle>
-            <SkillsDescription>
+          <S.Description>
+            <S.Title>Graphql</S.Title>
+            <S.Description>
               My name is Bernard Sydney. I am a Web Developer.
-            </SkillsDescription>
-          </SkillsDescription>
-        </SkillsItems>
-        <SkillsItems>
+            </S.Description>
+          </S.Description>
+        </S.Items>
+        <S.Items>
           <FaBuromobelexperte size={46} />
-          <SkillContentFeatured>
-            <SkillsTitle>UX/UI</SkillsTitle>
-            <SkillsDescription>
+          <S.ContentFeatured>
+            <S.Title>UX/UI</S.Title>
+            <S.Description>
               My name is Bernard Sydney. I am a Web Developer.
-            </SkillsDescription>
-          </SkillContentFeatured>
-        </SkillsItems>
-        <SkillsItems>
+            </S.Description>
+          </S.ContentFeatured>
+        </S.Items>
+        <S.Items>
           <SiJest size={46} />
-          <SkillContentFeatured>
-            <SkillsTitle>Testing Library</SkillsTitle>
-            <SkillsDescription>
+          <S.ContentFeatured>
+            <S.Title>Testing Library</S.Title>
+            <S.Description>
               My name is Bernard Sydney. I am a Web Developer.
-            </SkillsDescription>
-          </SkillContentFeatured>
-        </SkillsItems>
-        <SkillsItems>
+            </S.Description>
+          </S.ContentFeatured>
+        </S.Items>
+        <S.Items>
           <SiStorybook size={46} />
-          <SkillContentFeatured>
-            <SkillsTitle>Storybook</SkillsTitle>
-            <SkillsDescription>
+          <S.ContentFeatured>
+            <S.Title>Storybook</S.Title>
+            <S.Description>
               My name is Bernard Sydney. I am a Web Developer.
-            </SkillsDescription>
-          </SkillContentFeatured>
-        </SkillsItems>
-        <SkillsItems>
+            </S.Description>
+          </S.ContentFeatured>
+        </S.Items>
+        <S.Items>
           <AiFillGithub size={46} />
-          <SkillContentFeatured>
-            <SkillsTitle>Git/Github</SkillsTitle>
-            <SkillsDescription>
+          <S.ContentFeatured>
+            <S.Title>Git/Github</S.Title>
+            <S.Description>
               My name is Bernard Sydney. I am a Web Developer.
-            </SkillsDescription>
-          </SkillContentFeatured>
-        </SkillsItems>
-      </SkillsContent>
-    </SkillsWrapper>
+            </S.Description>
+          </S.ContentFeatured>
+        </S.Items>
+      </S.Content>
+    </S.Wrapper>
   )
 }
 

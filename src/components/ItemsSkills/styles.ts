@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 
-export const SkillsWrapper = styled.section`
+export const Wrapper = styled.section`
   margin: 100px 0;
 `
 
-export const SkillsContent = styled.div`
+export const Content = styled.div`
   padding: 20px 40px;
 
   display: grid;
@@ -20,13 +20,13 @@ export const SkillsContent = styled.div`
   }
 `
 
-export const SkillsItems = styled.div`
+export const Items = styled.div`
   margin-bottom: 100px;
 
   display: flex;
 `
 
-export const SkillsTitlePage = styled.h1`
+export const TitlePage = styled.h1`
   padding: 0px 40px;
 
   color: transparent;
@@ -37,17 +37,17 @@ export const SkillsTitlePage = styled.h1`
   font-family: 'Montserrat', sans-serif;
 
   @media (max-width: 768px) {
-    font-size: 56px;
+    font-size: 36px;
   }
 `
-export const SkillsTitle = styled.h3`
+export const Title = styled.h3`
   font-size: 18px;
   font-weight: 900;
   text-transform: uppercase;
 `
 
-export const SkillsDescription = styled.p`
+export const Description = styled.p`
   font-size: 16px;
 `
 
-export const SkillContentFeatured = styled.div``
+export const ContentFeatured = styled.div``

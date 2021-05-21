@@ -1,11 +1,11 @@
 import styled from 'styled-components'
 
-export const HeroWrapper = styled.section`
+export const Wrapper = styled.section`
   margin: 100px auto;
   padding: 20px 40px;
 `
 
-export const HeroContent = styled.div`
+export const Content = styled.div`
   line-height: 1.1;
 
   h1 {

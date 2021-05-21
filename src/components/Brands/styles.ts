@@ -2,6 +2,10 @@ import styled from 'styled-components'
 
 export const Wrapper = styled.section`
   margin: 100px 0;
+
+  @media (max-width: 768px) {
+    margin: 50px 0;
+  }
 `
 
 export const Content = styled.div`
@@ -18,6 +22,8 @@ export const Content = styled.div`
   @media (max-width: 768px) {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+
+    margin: 50px 0;
   }
 `
 

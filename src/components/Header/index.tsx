@@ -1,22 +1,23 @@
 import { useState } from 'react'
 
+import * as S from './styles'
+
 import Burger from 'components/Burger'
 import Navigation from 'components/Navigation'
 
-import { HeaderWrapper, HeaderContent } from './styles'
 import Logo from 'components/Logo'
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <HeaderWrapper>
-      <HeaderContent>
+    <S.Wrapper>
+      <S.Content>
         <Logo />
         <Burger menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Navigation menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-      </HeaderContent>
-    </HeaderWrapper>
+      </S.Content>
+    </S.Wrapper>
   )
 }
 

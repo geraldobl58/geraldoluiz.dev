@@ -1,15 +1,15 @@
 import TypedHero from 'components/TypedHero'
 
-import { HeroWrapper, HeroContent } from './styles'
+import * as S from './styles'
 
 const Hero = () => (
-  <HeroWrapper>
-    <HeroContent>
+  <S.Wrapper>
+    <S.Content>
       <h1>geraldo</h1>
       <h2>Luiz</h2>
       <TypedHero title="Skills" />
-    </HeroContent>
-  </HeroWrapper>
+    </S.Content>
+  </S.Wrapper>
 )
 
 export default Hero

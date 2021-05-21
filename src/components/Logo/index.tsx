@@ -1,5 +1,5 @@
-import { TitleLogo } from './styles'
+import * as S from './styles'
 
-const Logo = () => <TitleLogo>GL</TitleLogo>
+const Logo = () => <S.TitleLogo>GL</S.TitleLogo>
 
 export default Logo
