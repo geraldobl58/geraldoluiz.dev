@@ -27,11 +27,11 @@ export const Content = styled.div`
 
   @media (max-width: 400px) {
     h1 {
-      font-size: 48px;
+      font-size: 36px;
     }
 
     h2 {
-      font-size: 48px;
+      font-size: 28px;
     }
   }
 `

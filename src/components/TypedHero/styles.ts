@@ -21,8 +21,13 @@ export const HeroTyped = styled.div`
     display: block;
 
     h3 {
+      font-size: 18px;
       margin-top: 2rem;
       margin-bottom: 1rem;
+    }
+
+    span {
+      font-size: 18px;
     }
   }
 `
