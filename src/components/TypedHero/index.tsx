@@ -1,6 +1,17 @@
 import Typed from 'react-typed'
 
-const ROLES = ['HTML', 'CSS', 'ReactJS', 'React Native', 'NextJS', 'Javascript']
+const ROLES = [
+  'Desenvolvimento',
+  'Deploy',
+  'Design Responsivo',
+  'Graphql',
+  'UX/UI',
+  'Testing Library',
+  'Cypress',
+  'Storybook',
+  'Git/Github',
+  'Docker'
+]
 
 import { HeroTyped } from './styles'
 
