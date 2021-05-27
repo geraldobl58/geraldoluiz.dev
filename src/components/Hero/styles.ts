@@ -3,6 +3,10 @@ import styled from 'styled-components'
 export const Wrapper = styled.section`
   margin: 100px auto;
   padding: 20px 40px;
+
+  @media (max-width: 400px) {
+    margin: 0 auto;
+  }
 `
 
 export const Content = styled.div`
