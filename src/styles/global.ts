@@ -4,8 +4,9 @@ const GlobalStyles = createGlobalStyle`
   :root {
     --white: #eee;
     --black: #000;
+    --gray: #2d2d2d;
 
-    --backgroundGray-100: #252525
+    --backgroundGray-100: #252525;
   }
   * {
     margin: 0;
