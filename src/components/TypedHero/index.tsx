@@ -1,7 +1,6 @@
 import Typed from 'react-typed'
 
 const ROLES = [
-  'Desenvolvimento',
   'Deploy',
   'Design Responsivo',
   'Graphql',
@@ -15,14 +14,9 @@ const ROLES = [
 
 import { HeroTyped } from './styles'
 
-interface TypedHeroprops {
-  title: string
-}
-
-const TypedHero = ({ title }: TypedHeroprops) => {
+const TypedHero = () => {
   return (
     <HeroTyped>
-      <h3>{title}</h3>
       <Typed
         loop
         typeSpeed={70}

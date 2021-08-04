@@ -7,7 +7,7 @@ const Hero = () => (
     <S.Content>
       <h1>Frontend</h1>
       <h2>Developer</h2>
-      <TypedHero title="Experiência e Conhecimentos" />
+      <TypedHero />
     </S.Content>
   </S.Wrapper>
 )
