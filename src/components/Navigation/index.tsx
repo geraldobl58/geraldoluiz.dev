@@ -10,7 +10,6 @@ const Menu = ({ menuOpen }: NavigationProps) => {
     <StyledMenu menuOpen={menuOpen}>
       <a href="/">Home</a>
       <a href="/">Sobre</a>
-      <a href="/">Portfolio</a>
       <a href="/">Blog</a>
       <a href="/">Contato</a>
     </StyledMenu>
