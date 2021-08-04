@@ -25,7 +25,7 @@ export const Title = styled.h1`
   font-size: 48px;
   font-weight: 900;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Georama', sans-serif;
   margin-bottom: 50px;
 
   @media (max-width: 400px) {

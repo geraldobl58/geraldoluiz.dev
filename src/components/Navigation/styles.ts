@@ -34,7 +34,7 @@ export const StyledMenu = styled.nav<NavigationPropsStyled>`
     text-transform: uppercase;
     transition: color 0.3s linear;
     -webkit-text-stroke: 1px var(--white);
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Georama', sans-serif;
 
     transition: filter 0.2s;
 

@@ -22,7 +22,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    font-family: 'Mulish', sans-serif;
+    font-family: 'Georama', sans-serif;
     line-height: 2.1;
     letter-spacing: .8px;
     word-wrap: break-word;
@@ -32,7 +32,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Georama', sans-serif;
   }
 
   /* font-family: 'Mulish', sans-serif; */

@@ -18,7 +18,7 @@ export const Content = styled.div`
     font-weight: 900;
     text-transform: uppercase;
     -webkit-text-stroke: 1px var(--white);
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Georama', sans-serif;
   }
 
   h2 {
@@ -26,7 +26,7 @@ export const Content = styled.div`
     font-size: 120px;
     font-weight: 900;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Georama', sans-serif;
   }
 
   @media (max-width: 400px) {

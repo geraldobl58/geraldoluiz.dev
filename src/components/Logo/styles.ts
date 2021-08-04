@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const TitleLogo = styled.h1`
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Georama', sans-serif;
   font-size: 50px;
   font-weight: 900;
   text-transform: uppercase;
